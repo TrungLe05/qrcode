@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Chiếm toàn bộ chiều cao màn hình */
+    display: flex;
+    justify-content: center; /* Căn giữa ngang */
+    align-items: center;     /* Căn giữa dọc */
+    font-family: Arial, sans-serif;
+    /* background-color: #f2f2f2; */
+}
+h4{
+    font-weight: 400;
+}
+.container{
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(134, 128, 128);
+    padding: 30px;
+}
+.box-left{
+    margin-right: 70px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+.cost{
+    color: red;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+ul{
+    padding: 0px;
+    display: flex;
+    border-bottom: 1px solid rgb(183, 182, 182);
+    margin: 0px;
+}
+li{
+    list-style: none;
+    margin-right: 10px;
+    padding: 8px 15px;
+    transition: transform .5s;
+    border-radius: 5px;
+}
+li:hover{
+    background-color: rgb(7, 160, 232);
+    color: rgb(184, 180, 180);
+    transform: scale(1.03);
+}
+.box-information{
+    margin: 20px 0px 10px 0px;
+
+}
+i{
+    color: gray;
+}
+
+.card-number__css{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.card-number{
+    position: relative;
+
+}
+.card-number__input{
+    padding: 10px 140px 10px 30px;
+}
+
+.cardholder-name__css{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.cardholder-name{
+    position: relative;
+    margin-top: 15px;
+}
+.cardholder-name__input{
+    padding: 10px 140px 10px 30px;
+}
+p{
+    font-size: 15px;
+    font-size: 14px;
+}
+.blue{
+    color: rgb(135, 135, 207);
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 50%;
+}
+.authenticate{
+    padding: 10px 132px;
+    text-align: center;
+    color: black;
+    transition: transform .5s;
+}
+.authenticate:hover{
+    background-color: rgb(7, 160, 232);
+    transform: scale(1.01);
+    color: white;
+}
+.Or{
+    text-align: center;
+    position: relative;
+}
+.Or:before{
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    border-bottom: 1px solid black;
+    width: 150px;
+}
+.Or:after{
+    content: "";
+    position: absolute;
+    top: 7px;
+    right: 15px;
+    border-bottom: 1px solid black;
+    width: 135px;
+}
+
+.cancel{
+    padding: 10px 152px;
+    text-align: center;
+    color: black;
+    transition: transform .5s;
+}
+.cancel:hover{
+    background-color: rgb(7, 160, 232);
+    transform: scale(1.01);
+    color: white;
+}
