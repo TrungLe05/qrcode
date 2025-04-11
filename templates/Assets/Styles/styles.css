@@ -136,3 +136,98 @@ p{
     transform: scale(1.01);
     color: white;
 }
+@media(max-width: 991px){
+    .container-box{
+        width: 720px;
+    }
+    ul{
+        width: 300px;
+        border-bottom: none;
+    }
+    .card-number__input{
+        padding: 10px 90px 10px 30px;
+    }
+    .cardholder-name__input{
+        padding: 10px 90px 10px 30px;
+    }
+    .authenticate{
+        padding: 10px 100px;
+
+    }
+    .cancel{
+        padding: 10px 120px;
+
+    }
+    h4{
+        font-size: 13px;
+    }
+    li {
+        padding: 2px;
+        font-size: 13px;
+    }
+    .Or:before {
+        width: 100px;
+    }
+    .Or:after{
+        width: 100px;
+        right: 10px;
+    }
+}
+@media(max-width: 768px){
+    .container-box{
+        width: 540px;
+    }
+}
+@media(max-width: 576px){
+    .container-box{
+        width: 100%;
+    }
+}
+@media(max-width: 576px){
+    .container-box{
+        width: 100%;
+    }
+
+    ul{
+        width: 245px;
+        border-bottom: none;
+    }
+    .card-number__input{
+        padding: 10px 50px 10px 30px;
+    }
+    .cardholder-name__input{
+        padding: 10px 50px 10px 30px;
+    }
+    .authenticate{
+        padding: 10px 85px;
+
+    }
+    .cancel{
+        padding: 10px 105px;
+
+    }
+    h4{
+        font-size: 14px;
+    }
+    li {
+        padding: 2px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .Or:before {
+        width: 50px;
+    }
+    .Or:after{
+        width: 50px;
+        right: 10px;
+    }
+    .img-qrcode img{
+        width: 140px;
+        height: 150px;
+        margin: 0;
+    }
+    .box-option{
+        width: 100%;
+    }
+}
